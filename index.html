@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="weather-container">
+    <div class="logo-container">
+      <img src="logo.png" alt="Weather Logo" class="logo">
+      <h1>Weather Now</h1>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="city" placeholder="Enter city" autofocus>
+      <p> </p>
+      <button id="getWeatherBtn">Get Weather</button>
+    </div>
+
+    <div class="weather-info" id="weatherInfo">
+      <div class="icon">
+        <i id="weatherIcon" class="fas fa-sun"></i>
+      </div>
+      <p id="cityName"></p>
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+      <p id="windSpeed"></p>
+    </div>
+  </div>
+
+</body>
+</html>
